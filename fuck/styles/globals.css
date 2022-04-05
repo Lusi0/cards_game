@@ -1,0 +1,132 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Marcellus;
+    
+}
+
+
+h3{
+  font-size: 2rem;
+  margin: 0px !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 0 auto;
+  
+  width: 400px;
+  height: 550px;  
+  padding: 1.5rem;
+  /* outline */
+
+  /* rounded */
+  border-radius: 20px;
+  /* shadow */
+  /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); */
+
+  /* background image*/
+  background-image: url("https://i.imgur.com/5ligzwf.png");
+  background-color: rgb(211, 128, 250); /* Tint color */
+  background-blend-mode: difference;
+  margin: 5px;
+  /* inline */
+  display: inline-block;
+  
+    
+  
+}
+
+p{
+  margin: 0 !important;
+}
+
+.card-content{
+  /* larger font */
+  font-size: 1.5rem;
+  /* centered */
+  text-align: center;
+  /* bold */
+  
+  background-color: #ffffffa4;
+  height: 200px;
+  width: 352px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: #ffffff49;
+  margin-top: 24px;
+  position: absolute;
+  
+}
+
+.card-info{
+  /* go to the bottom right hand corner of the parent */
+  /* bold */
+  font-weight: bold;
+
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  background-color: rgb(100, 180, 255);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  padding: 5px 10px 5px 10px;
+}
+
+
+
+
+.card-title{
+  
+  /* shadow */
+  /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
+  background-color: rgba(255, 255, 255, 0.267);
+  
+
+
+}
+
+.card-name{
+  margin-left: 10px;
+}
+
+img{
+  width: 352px;
+  height: 225px;
+  margin-top: 2px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  /* thin outline */
+  outline-width: 2px;
+  outline-style: solid; 
+  outline-color: #ffffff49;
+  
+}
+
+.card-cost-text{
+  text-align: right !important;
+  
+  /* larger font */
+  
+  /* shadow */
+  
+  background-color: rgb(100, 180, 255);
+  padding-left: 5px;
+  padding-right: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 10px;
+
+  float: right;
+  
+
+  /* front of z index */
+  z-index: 999;
+}
